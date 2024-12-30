@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        iframe {
+            border: 2px solid #0078D7;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: auto;
+            width: 100%;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+            color: #666;
+            border-top: 1px solid #ddd;
+        }
+        .btn-back {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0078D7;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        }
+        .btn-back:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dashboard 1</h1>
+    </header>
+    <main>
+        <iframe 
+            src="https://app.powerbi.com/reportEmbed?reportId=b994d47a-13d4-4611-8323-e9fd8fc9ec3b&autoAuth=true&ctid=f93d5f40-88c0-4650-b8f2-cc4ec3ef6a10" 
+            frameborder="0" allowFullScreen="true" 
+            width="800" height="600">
+        </iframe>
+        <a href="index.html" class="btn-back">Retour à l'accueil</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Organisation. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
